@@ -26,3 +26,6 @@ Any other messages from the reader are sent to the topic:
 ```
 The current version of the software only reports on this log topic if a received message is NOT 16 bytes long (the size of an Openbeacon message).
 
+Mark Schulz
+October 13 2014
+
