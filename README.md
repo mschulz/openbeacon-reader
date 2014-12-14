@@ -42,8 +42,13 @@ GND == GND
 ```
 
 ##Ethernet
-The MAC address of the Ethernet card is stored in the EEPROM on the Arduino, and in our case we pick up the IP address from DHCP.  You can change this code if you are running in a different environment.
+The MAC address of the Ethernet card is stored in the EEPROM on the Arduino, and in our case we pick up the IP address from DHCP.  You can change this code if you are running in a different environment. The source for these programs comes from the [Freetronics forum] (http://forum.freetronics.com/viewtopic.php?f=4&t=4869)
+
+##nRF24L01+ Support
+This is a copy of an earlier (and looks to be incompatible) version of the library code by Antti Kupila on Github [nRF24] (https://github.com/akupila/NRF24)
+
+If you have problems building this, let me know and I'll update this area with any fixes needed.
 
 Mark Schulz
-October 13 2014
+Updated December 15 2014
 
