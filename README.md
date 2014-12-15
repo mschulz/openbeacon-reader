@@ -6,7 +6,7 @@ Here is a simple rendition of an Openbeacon reader running on an Arduino. There 
 * a Transceiver nRF24L01+ Module with RP-SMA (WRL-00705) from [Sparkfun](https://www.sparkfun.com/products/705)
 * a 2.4GHz Duck Antenna RP-SMA (WRL-00145) from [Sparkfun](https://www.sparkfun.com/products/145) (to increase the receive range)
 
-![Arduino+Ethernet Shield+nRF24L01+ Breakout Board](https://github.com/mschulz/openbeacon-reader/base-station.jpg)
+![Arduino+Ethernet Shield+nRF24L01+ Breakout Board](base-station.jpg)
 
 ##Operation
 
