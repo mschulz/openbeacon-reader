@@ -6,8 +6,7 @@ Here is a simple rendition of an Openbeacon reader running on an Arduino. There 
 * a Transceiver nRF24L01+ Module with RP-SMA (WRL-00705) from [Sparkfun](https://www.sparkfun.com/products/705)
 * a 2.4GHz Duck Antenna RP-SMA (WRL-00145) from [Sparkfun](https://www.sparkfun.com/products/145) (to increase the receive range)
 
-
-<img src="http://ceit.uq.edu.au/system/files/blog/obarduinoreader.jpg" width="200px" height="200px"/>
+![Arduino+Ethernet Shield+nRF24L01+ Breakout Board](https://github.com/mschulz/openbeacon-reader/base-station.jpg)
 
 ##Operation
 
@@ -47,6 +46,10 @@ The MAC address of the Ethernet card is stored in the EEPROM on the Arduino, and
 ##nRF24L01+ Support
 This is a copy of an earlier (and looks to be incompatible) version of the library code by Antti Kupila on Github [nRF24] (https://github.com/akupila/NRF24)
 
+##MQTT Publish/Subscribe Client
+The library to support this is available at [knolleary's Github site] (https://github.com/knolleary/pubsubclient).
+
+##Contact
 If you have problems building this, let me know and I'll update this area with any fixes needed.
 
 Mark Schulz
